@@ -1,0 +1,16 @@
+{
+   "deploy": {
+       "production": {
+           "user": "zcx",
+           "host": ["149.28.9.185"],
+            "ref": "origin/master",
+            "port": "4396",
+            "repo": "https://github.com/zhangchenxu/chat.git",
+            "path": "/www/website/production",
+            "ssh_options": "StrictHostKeyChecking=no",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    }
+}

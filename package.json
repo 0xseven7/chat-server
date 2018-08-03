@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server ",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "pm2 start ecosystem.json",
+    "test": "mocha --watch",
+    "setup":"pm2 deploy ecosystem.json production setup",
+    "deploy":"pm2 deploy ecosystem.json production"
+  }
+}
