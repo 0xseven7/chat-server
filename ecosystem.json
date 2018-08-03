@@ -5,8 +5,8 @@
            "host": ["149.28.9.185"],
             "ref": "origin/master",
             "port": "4396",
-            "repo": "https://github.com/zhangchenxu/chat.git",
-            "path": "/www/website/production",
+            "repo": "https://github.com/zhangchenxu/chat-server.git",
+            "path": "/www/chat-server",
             "ssh_options": "StrictHostKeyChecking=no",
             "env": {
                 "NODE_ENV": "production"
